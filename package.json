@@ -18,6 +18,9 @@
     "type": "git",
     "url": "https://github.com/Jermolene/TiddlyWiki5.git"
   },
+  "scripts": {
+    "start": "node ./tiddlywiki.js"
+  },
   "keywords": [
     "tiddlywiki",
     "tiddlywiki5",
