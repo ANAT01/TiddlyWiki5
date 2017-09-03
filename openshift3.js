@@ -12,8 +12,8 @@ if ($fs.existsSync(path + '/tiddlywiki.info')) {
       "$:/core/save/all",
       "text/plain",
       "text/html",
-      process.env.TW_DATA ? process.env.TW_USER : '',
-      process.env.TW_DATA ? process.env.TW_PASS : '',
+      process.env.TW_USER ? process.env.TW_USER : '',
+      process.env.TW_PASS ? process.env.TW_PASS : '',
       "0.0.0.0",
     ];
 }
