@@ -19,7 +19,7 @@
     "url": "https://github.com/Jermolene/TiddlyWiki5.git"
   },
   "scripts": {
-    "start": "node ./tiddlywiki.js"
+    "start": "node ./openshift3.js"
   },
   "keywords": [
     "tiddlywiki",
