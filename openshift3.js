@@ -1,9 +1,9 @@
-var fs = require('fs');
-var tw = require("./boot/boot.js").TiddlyWiki();
+var $fs = require('fs');
+var $tw = require("./boot/boot.js").TiddlyWiki();
 
 var path = process.env.TW_DATA ? process.env.TW_DATA : './';
 
-if (fs.existsSync(path + '/tiddlywiki.info')) {
+if ($fs.existsSync(path + '/tiddlywiki.info')) {
     $tw.boot.argv = [
       path,
       "--verbose",
